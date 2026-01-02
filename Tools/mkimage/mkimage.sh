@@ -78,6 +78,8 @@ if [[ -f "$TEMP_DIR/file_contexts" ]]; then
     echo "/blackbox               u:object_r:rootfs:s0" >> "$TEMP_DIR/file_contexts"
     echo "/elabel                 u:object_r:rootfs:s0" >> "$TEMP_DIR/file_contexts"
     echo "/logbuf                 u:object_r:rootfs:s0" >> "$TEMP_DIR/file_contexts"
+    echo "/logdata                 u:object_r:rootfs:s0" >> "$TEMP_DIR/file_contexts"
+    echo "/vgc                 u:object_r:rootfs:s0" >> "$TEMP_DIR/file_contexts"
     file_contexts="$TEMP_DIR/file_contexts"
 fi
 
