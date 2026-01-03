@@ -1,5 +1,5 @@
-## Released GSIs
-Telegram channel: https://t.me/FoxetGSI
+## Build via Github
+[FoxetGSIWeb](https://github.com/MaddIsHere/FoxetGSIWeb)
 
 ## How to use
 
