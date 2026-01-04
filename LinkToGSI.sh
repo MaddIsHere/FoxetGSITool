@@ -9,7 +9,7 @@ if [[ -d "Tools/Firmware_extractor" ]]; then
     git -C "Tools"/Firmware_extractor reset --hard origin/master
 else
     echo "Cloning Firmware_extractor..."
-    git clone -q --recurse-submodules https://github.com/AndroidDumps/Firmware_extractor.git "Tools"/Firmware_extractor
+    git clone -q --recurse-submodules https://github.com/MaddIsHere/Firmware_extractor.git "Tools"/Firmware_extractor
 fi
 
 usage() {
